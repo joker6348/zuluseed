@@ -29,55 +29,275 @@ public class main_game_screen extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
+        colonistname = new javax.swing.JLabel();
+        colonist = new javax.swing.JLabel();
+        scannerallname = new javax.swing.JLabel();
+        Atmospherename = new javax.swing.JLabel();
+        res = new javax.swing.JLabel();
+        gravname = new javax.swing.JLabel();
+        temp = new javax.swing.JLabel();
+        tempname = new javax.swing.JLabel();
+        atmos = new javax.swing.JLabel();
+        watername = new javax.swing.JLabel();
+        water = new javax.swing.JLabel();
+        resoname = new javax.swing.JLabel();
+        grav = new javax.swing.JLabel();
+        sysname = new javax.swing.JLabel();
+        landname = new javax.swing.JLabel();
+        land = new javax.swing.JLabel();
+        consname = new javax.swing.JLabel();
+        cons = new javax.swing.JLabel();
+        spname1 = new javax.swing.JLabel();
+        surfprob = new javax.swing.JLabel();
+        spname2 = new javax.swing.JLabel();
+        dataname = new javax.swing.JLabel();
+        sciname = new javax.swing.JLabel();
+        sci = new javax.swing.JLabel();
+        culturalname = new javax.swing.JLabel();
+        cul = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jPanel3 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
+        line01 = new javax.swing.JLabel();
+        line02 = new javax.swing.JLabel();
+        line03 = new javax.swing.JLabel();
+        line04 = new javax.swing.JLabel();
+        line05 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
+        line11 = new javax.swing.JLabel();
+        line12 = new javax.swing.JLabel();
+        line13 = new javax.swing.JLabel();
+        line14 = new javax.swing.JLabel();
+        line15 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
+        line21 = new javax.swing.JLabel();
+        line22 = new javax.swing.JLabel();
+        line23 = new javax.swing.JLabel();
+        line24 = new javax.swing.JLabel();
+        line25 = new javax.swing.JLabel();
         jPanel8 = new javax.swing.JPanel();
-        jLabel21 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
+        line31 = new javax.swing.JLabel();
+        line32 = new javax.swing.JLabel();
+        line33 = new javax.swing.JLabel();
+        line34 = new javax.swing.JLabel();
+        line35 = new javax.swing.JLabel();
         jPanel9 = new javax.swing.JPanel();
-        jLabel26 = new javax.swing.JLabel();
-        jLabel27 = new javax.swing.JLabel();
-        jLabel28 = new javax.swing.JLabel();
-        jLabel29 = new javax.swing.JLabel();
-        jLabel30 = new javax.swing.JLabel();
+        line41 = new javax.swing.JLabel();
+        line42 = new javax.swing.JLabel();
+        line43 = new javax.swing.JLabel();
+        line44 = new javax.swing.JLabel();
+        line45 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
 
-        jPanel2.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel2.setBackground(new java.awt.Color(51, 51, 51));
+
+        colonistname.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        colonistname.setForeground(new java.awt.Color(255, 255, 255));
+        colonistname.setText("Colonists");
+
+        colonist.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        colonist.setForeground(new java.awt.Color(102, 204, 0));
+        colonist.setText("1000");
+
+        scannerallname.setFont(new java.awt.Font("Corbel", 1, 18)); // NOI18N
+        scannerallname.setForeground(new java.awt.Color(255, 255, 255));
+        scannerallname.setText("Scanners");
+
+        Atmospherename.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        Atmospherename.setForeground(new java.awt.Color(255, 255, 255));
+        Atmospherename.setText("Atmosphere");
+
+        res.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        res.setForeground(new java.awt.Color(102, 204, 0));
+        res.setText("100%");
+
+        gravname.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        gravname.setForeground(new java.awt.Color(255, 255, 255));
+        gravname.setText("Gravity");
+
+        temp.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        temp.setForeground(new java.awt.Color(102, 204, 0));
+        temp.setText("100%");
+
+        tempname.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        tempname.setForeground(new java.awt.Color(255, 255, 255));
+        tempname.setText("Temperature");
+
+        atmos.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        atmos.setForeground(new java.awt.Color(102, 204, 0));
+        atmos.setText("100%");
+
+        watername.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        watername.setForeground(new java.awt.Color(255, 255, 255));
+        watername.setText("Water");
+
+        water.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        water.setForeground(new java.awt.Color(102, 204, 0));
+        water.setText("100%");
+
+        resoname.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        resoname.setForeground(new java.awt.Color(255, 255, 255));
+        resoname.setText("Resourses");
+
+        grav.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        grav.setForeground(new java.awt.Color(102, 204, 0));
+        grav.setText("100%");
+
+        sysname.setFont(new java.awt.Font("Corbel", 1, 18)); // NOI18N
+        sysname.setForeground(new java.awt.Color(255, 255, 255));
+        sysname.setText("Systems");
+
+        landname.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        landname.setForeground(new java.awt.Color(255, 255, 255));
+        landname.setText("Landing");
+
+        land.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        land.setForeground(new java.awt.Color(102, 204, 0));
+        land.setText("100%");
+
+        consname.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        consname.setForeground(new java.awt.Color(255, 255, 255));
+        consname.setText("Construction");
+
+        cons.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        cons.setForeground(new java.awt.Color(102, 204, 0));
+        cons.setText("100%");
+
+        spname1.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        spname1.setForeground(new java.awt.Color(255, 255, 255));
+        spname1.setText("Surface");
+
+        surfprob.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        surfprob.setForeground(new java.awt.Color(255, 255, 255));
+        surfprob.setText("10");
+
+        spname2.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        spname2.setForeground(new java.awt.Color(255, 255, 255));
+        spname2.setText("Probes");
+
+        dataname.setFont(new java.awt.Font("Corbel", 1, 18)); // NOI18N
+        dataname.setForeground(new java.awt.Color(255, 255, 255));
+        dataname.setText("Databases");
+
+        sciname.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        sciname.setForeground(new java.awt.Color(255, 255, 255));
+        sciname.setText("Scientific");
+
+        sci.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        sci.setForeground(new java.awt.Color(102, 204, 0));
+        sci.setText("100%");
+
+        culturalname.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        culturalname.setForeground(new java.awt.Color(255, 255, 255));
+        culturalname.setText("Cultural");
+
+        cul.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        cul.setForeground(new java.awt.Color(102, 204, 0));
+        cul.setText("100%");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 270, Short.MAX_VALUE)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(scannerallname)
+                    .addComponent(Atmospherename)
+                    .addComponent(sysname)
+                    .addComponent(dataname)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(gravname)
+                            .addComponent(tempname)
+                            .addComponent(watername)
+                            .addComponent(resoname)
+                            .addComponent(landname)
+                            .addComponent(consname)
+                            .addComponent(spname1)
+                            .addComponent(spname2, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(sciname)
+                            .addComponent(culturalname)
+                            .addComponent(colonistname, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(51, 51, 51)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(colonist, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(cul)
+                            .addComponent(sci)
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(cons, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(land, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(res, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(water, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(temp, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(grav, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(atmos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(surfprob, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
+                .addContainerGap(18, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(colonistname)
+                    .addComponent(colonist))
+                .addGap(24, 24, 24)
+                .addComponent(scannerallname)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Atmospherename)
+                    .addComponent(atmos))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(gravname)
+                    .addComponent(grav))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(tempname)
+                    .addComponent(temp))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(watername)
+                    .addComponent(water))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(resoname)
+                    .addComponent(res))
+                .addGap(18, 18, 18)
+                .addComponent(sysname)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(landname)
+                    .addComponent(land))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(consname)
+                    .addComponent(cons))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(spname1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(spname2))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(surfprob, javax.swing.GroupLayout.DEFAULT_SIZE, 51, Short.MAX_VALUE)
+                        .addGap(2, 2, 2)))
+                .addGap(18, 18, 18)
+                .addComponent(dataname)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(sciname)
+                    .addComponent(sci))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(culturalname)
+                    .addComponent(cul))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jScrollPane1.setBackground(new java.awt.Color(0, 0, 0));
@@ -88,20 +308,20 @@ public class main_game_screen extends javax.swing.JFrame {
 
         jPanel4.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel1.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        line01.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line01.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel2.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        line02.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line02.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel3.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        line03.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line03.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel4.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        line04.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line04.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel5.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        line05.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line05.setForeground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -110,45 +330,45 @@ public class main_game_screen extends javax.swing.JFrame {
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(line01, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line02, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line03, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line04, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line05, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1)
+                .addComponent(line01)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel2)
+                .addComponent(line02)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel3)
+                .addComponent(line03)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel4)
+                .addComponent(line04)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel5)
+                .addComponent(line05)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel5.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel6.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        line11.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line11.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel7.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        line12.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line12.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel8.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        line13.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line13.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel9.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        line14.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line14.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel10.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        line15.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line15.setForeground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -157,45 +377,45 @@ public class main_game_screen extends javax.swing.JFrame {
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(line11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel6)
+                .addComponent(line11)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel7)
+                .addComponent(line12)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel8)
+                .addComponent(line13)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel9)
+                .addComponent(line14)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel10)
+                .addComponent(line15)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel7.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel16.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        line21.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line21.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel17.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
+        line22.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line22.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel18.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
+        line23.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line23.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel19.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
+        line24.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line24.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel20.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
+        line25.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line25.setForeground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -204,45 +424,45 @@ public class main_game_screen extends javax.swing.JFrame {
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(line21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel16)
+                .addComponent(line21)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel17)
+                .addComponent(line22)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel18)
+                .addComponent(line23)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel19)
+                .addComponent(line24)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel20)
+                .addComponent(line25)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel8.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel21.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
+        line31.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line31.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel22.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
+        line32.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line32.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel23.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
+        line33.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line33.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel24.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
+        line34.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line34.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel25.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
+        line35.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line35.setForeground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -251,45 +471,45 @@ public class main_game_screen extends javax.swing.JFrame {
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel22, javax.swing.GroupLayout.DEFAULT_SIZE, 1202, Short.MAX_VALUE)
-                    .addComponent(jLabel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(line31, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line32, javax.swing.GroupLayout.DEFAULT_SIZE, 1202, Short.MAX_VALUE)
+                    .addComponent(line33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line34, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel21)
+                .addComponent(line31)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel22)
+                .addComponent(line32)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel23)
+                .addComponent(line33)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel24)
+                .addComponent(line34)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel25)
+                .addComponent(line35)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel9.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel26.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
+        line41.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line41.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel27.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel27.setForeground(new java.awt.Color(255, 255, 255));
+        line42.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line42.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel28.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel28.setForeground(new java.awt.Color(255, 255, 255));
+        line43.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line43.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel29.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel29.setForeground(new java.awt.Color(255, 255, 255));
+        line44.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line44.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel30.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        jLabel30.setForeground(new java.awt.Color(255, 255, 255));
+        line45.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        line45.setForeground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -298,26 +518,26 @@ public class main_game_screen extends javax.swing.JFrame {
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel27, javax.swing.GroupLayout.DEFAULT_SIZE, 1240, Short.MAX_VALUE)
-                    .addComponent(jLabel28, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel30, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(line41, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line42, javax.swing.GroupLayout.DEFAULT_SIZE, 1240, Short.MAX_VALUE)
+                    .addComponent(line43, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line44, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(line45, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel26)
+                .addComponent(line41)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel27)
+                .addComponent(line42)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel28)
+                .addComponent(line43)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel29)
+                .addComponent(line44)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel30)
+                .addComponent(line45)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -346,7 +566,7 @@ public class main_game_screen extends javax.swing.JFrame {
                 .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 231, Short.MAX_VALUE))
+                .addGap(0, 266, Short.MAX_VALUE))
         );
 
         jScrollPane1.setViewportView(jPanel3);
@@ -364,7 +584,7 @@ public class main_game_screen extends javax.swing.JFrame {
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jScrollPane1)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 542, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -417,45 +637,65 @@ public class main_game_screen extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
-    private javax.swing.JLabel jLabel28;
-    private javax.swing.JLabel jLabel29;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel30;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel Atmospherename;
+    private javax.swing.JLabel atmos;
+    private javax.swing.JLabel colonist;
+    private javax.swing.JLabel colonistname;
+    private javax.swing.JLabel cons;
+    private javax.swing.JLabel consname;
+    private javax.swing.JLabel cul;
+    private javax.swing.JLabel culturalname;
+    private javax.swing.JLabel dataname;
+    private javax.swing.JLabel grav;
+    private javax.swing.JLabel gravname;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JLabel land;
+    private javax.swing.JLabel landname;
+    private javax.swing.JLabel line01;
+    private javax.swing.JLabel line02;
+    private javax.swing.JLabel line03;
+    private javax.swing.JLabel line04;
+    private javax.swing.JLabel line05;
+    private javax.swing.JLabel line11;
+    private javax.swing.JLabel line12;
+    private javax.swing.JLabel line13;
+    private javax.swing.JLabel line14;
+    private javax.swing.JLabel line15;
+    private javax.swing.JLabel line21;
+    private javax.swing.JLabel line22;
+    private javax.swing.JLabel line23;
+    private javax.swing.JLabel line24;
+    private javax.swing.JLabel line25;
+    private javax.swing.JLabel line31;
+    private javax.swing.JLabel line32;
+    private javax.swing.JLabel line33;
+    private javax.swing.JLabel line34;
+    private javax.swing.JLabel line35;
+    private javax.swing.JLabel line41;
+    private javax.swing.JLabel line42;
+    private javax.swing.JLabel line43;
+    private javax.swing.JLabel line44;
+    private javax.swing.JLabel line45;
+    private javax.swing.JLabel res;
+    private javax.swing.JLabel resoname;
+    private javax.swing.JLabel scannerallname;
+    private javax.swing.JLabel sci;
+    private javax.swing.JLabel sciname;
+    private javax.swing.JLabel spname1;
+    private javax.swing.JLabel spname2;
+    private javax.swing.JLabel surfprob;
+    private javax.swing.JLabel sysname;
+    private javax.swing.JLabel temp;
+    private javax.swing.JLabel tempname;
+    private javax.swing.JLabel water;
+    private javax.swing.JLabel watername;
     // End of variables declaration//GEN-END:variables
 }
